@@ -1,0 +1,115 @@
+header,nav{
+    background-color:rgb(199, 155, 43);
+}
+footer{
+  background-color:rgb(199, 155, 43);
+  padding:5px 0 5px 0 ;
+}
+section{
+    background-color: burlywood;
+
+}
+/* section{
+  background-color: rgb(248, 15, 34) !important;
+
+} */
+.sectionpage{
+  width:60%; 
+  margin-left: 20%;
+}
+article{
+    width:40%; 
+    margin-left: 30%;
+}
+#img{
+    float: right;
+}
+iframe{
+  margin-left: 73%;
+  top: 200px;
+
+}
+#hr{
+    width: 40% ;
+}
+.button {
+    background-color: rgb(199, 155, 43); 
+    border: none;
+    color: rgb(199, 155, 43);
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 10px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    border-radius: 8px;
+    
+  }
+  #img-galerie{
+    margin: 2px 7px 0px 10px;
+    padding: 5px 5px;
+
+  }
+  .button1 {
+    background-color: rgb(199, 155, 43); 
+    color: black; 
+    border: 2px solid #e1d070;
+  }
+  
+  .active, .button1:hover {
+    background-color: burlywood;
+    color: black;
+  }
+  #elem1{
+    display: flex;
+    justify-content: space-between;
+  }
+  #elem2{
+    display:inline-block;
+  }
+  .center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  #td {
+    border-collapse: collapse;
+    border: 2px solid white;
+
+  }
+  #th{
+    background-color:rgba(199, 155, 43, 0.7);
+    text-align: center;
+    border: 0.1px solid rgba(199, 155, 43, 0.7);
+  }
+  .table {
+    border-collapse: collapse;
+      border-spacing:0;
+    
+  }
+
+  .particle {
+    box-shadow: inset 0 0 0 0 #ffab02;
+    color: rgb(199, 155, 43);
+    margin: 0 -.25rem;
+    padding: 0 .25rem;
+    transition: color .3s ease-in-out, box-shadow .3s ease-in-out;
+  }
+  .particle:hover {
+    box-shadow: inset 100px 0 0 0 burlywood;
+    color: rgb(255, 255, 255);
+  }
+  body{
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+  }
+  .gal-img{
+    border: 7px whitesmoke solid;
+    margin: 5px;
+    box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.733);
+    -moz-box-shadow: 10px 10px 5px rgb(55, 53, 53);
+    -webkit-box-shadow: 10px 10px 5px rgb(55, 53, 53);
+    -khtml-box-shadow: 10px 10px 5px rgb(55, 53, 53);    
+    border-radius:1px ;    
+  }
